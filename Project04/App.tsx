@@ -30,6 +30,7 @@ function App(): JSX.Element {
 
   return (
     <>
+    {/* the status bar points the status bar of the phone */}
     <StatusBar backgroundColor={randomBackground}/>
     <View style={[styles.container, {backgroundColor: randomBackground}] }>
       <TouchableOpacity onPress={generateColor}>
