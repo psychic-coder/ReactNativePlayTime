@@ -1,4 +1,4 @@
-package com.project05
+package com.project08
 
 import android.app.Application
 import com.facebook.react.PackageList
@@ -10,7 +10,6 @@ import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.load
 import com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost
 import com.facebook.react.defaults.DefaultReactNativeHost
 import com.facebook.soloader.SoLoader
-import com.mkuczera.RNReactNativeHapticFeedbackPackage;
 
 class MainApplication : Application(), ReactApplication {
 
